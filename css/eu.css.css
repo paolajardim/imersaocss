@@ -1,0 +1,44 @@
+*{
+ margin:0;
+ padding:0;
+ box-sizing:border-box; 
+}
+body{
+    background-color:LAVENDERBLUSH;
+      font-family:Book antiqua;
+     background-image: url("../img/backs.jpg");
+     background-size: 100vh, auto;
+    height: auto;
+  }
+  .menu {
+    background-color:white
+  }
+  .menu ul{
+    display:flex;
+    justify-content:space-around;
+   }
+  .menu li{
+    list-style:none;
+    color:deeppink;
+  }
+  a{
+    text-decoration: none;
+    color: MEDIUMVIOLETRED
+   }
+  a:hover{
+    text-decoration:aboveunderline; 
+    color: orange;
+  }
+  .site-subtitle,
+  .site-title{
+    text-align:center;
+    color:dODGERBLUe;
+  }
+  
+  .site-subtitle{
+    font-style:italic;
+  }
+  .img-portfolio{
+    height: auto;
+    width:180px;
+  
