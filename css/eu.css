@@ -1,0 +1,36 @@
+body{
+    background-color:LAVENDERBLUSH;
+      font-family:Book antiqua;
+    /* background-image:url('endereço da imagem
+    backgraund-size: auto 100vh 
+    heght: 100vh*/
+  }
+  .menu {
+    background-color:white
+  }
+  .menu ul{
+    display:flex;
+    justify-content:space-around;
+   }
+  .menu li{
+    list-style:none;
+    color:deeppink;
+  }
+  a{
+    text-decoration: none;
+    color: MEDIUMVIOLETRED
+   }
+  a:hover{
+    text-decoration:aboveunderline; 
+    color: orange;
+  }
+  .site-subtitle,
+  .site-title{
+    text-align:center;
+    color:DARKMAGENTA;
+  }
+  
+  .site-subtitle{
+    font-style:italic;
+    
+  }
